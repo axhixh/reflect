@@ -1,0 +1,7 @@
+applications:
+  - name: reflect
+    memory: 16M 
+    buildpack: go_buildpack
+    cmd: reflect
+    env:
+      GOPACKAGENAME: main
